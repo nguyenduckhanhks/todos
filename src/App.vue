@@ -8,7 +8,7 @@
         <TodoItem
           :item="item"
           :index="index"
-          :toggleTodo="toggleTodoItemComplete"
+          :toggleTodoItemComplete="toggleTodoItemComplete"
           :removeTodo="removeTodo"
         />
       </div>
@@ -50,7 +50,7 @@ export default {
     },
 
     toggleTodoItemComplete(index){
-      var complete = this.todos[index].complete
+      var complete = this.todos[index].complete;
       this.todos[index].complete = !complete;
       if(complete===true) this.todoLeft++; else this.todoLeft--;
     },
