@@ -1,0 +1,31 @@
+.main-container {
+    width: 50%;
+    position: relative;
+    height: auto;
+    margin: 50px auto;
+}
+
+.label-row, .footer {
+    width: 100%;
+    border: 1px #e8e9eb solid;
+    padding: 10px 10px;
+    font-size: 20px;
+    box-shadow:0 0 1px 1px #e8e9eb;
+    background-color: #f2f3f5;
+    margin: 0px;
+}
+.label-row #todo-input{
+    width: 100%;
+}
+i{
+    float: left;
+    margin: 5px 10px 0 0;
+}
+
+.remove{
+    float: right;
+}
+
+button{
+    border: none;
+}
