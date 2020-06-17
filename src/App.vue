@@ -23,7 +23,7 @@
 import AddForm from './components/addForm';
 import TodoItem from './components/todoItem';
 import Filters from './components/filters';
-import('./assets/style.css');
+import './assets/style.css';
 
 export default {
   name: 'App',
